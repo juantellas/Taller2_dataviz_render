@@ -7,3 +7,4 @@ dash-bootstrap-components
 numpy 
 plotly 
 gunicorn
+unidecode
