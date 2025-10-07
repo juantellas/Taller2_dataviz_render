@@ -8,4 +8,3 @@ numpy
 plotly 
 gunicorn
 unidecode
-json
