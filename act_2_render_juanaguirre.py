@@ -6,6 +6,7 @@ import pandas as pd
 import unidecode
 import numpy as np
 import matplotlib.pyplot as plt
+import os
 import io
 import base64
 import matplotlib.patheffects as path_effects
@@ -262,4 +263,7 @@ app.layout = html.Div([
 ], style={'backgroundColor': '#000', 'color': 'white'})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 8050))  # Render asigna un puerto automáticamente
+    app.run(host="0.0.0.0", port=port, debug=False)
+
+
