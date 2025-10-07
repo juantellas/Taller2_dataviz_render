@@ -1,0 +1,8 @@
+geopandas 
+pandas 
+matplotlib 
+seaborn 
+dash 
+dash-bootstrap-components 
+numpy 
+plotly 
