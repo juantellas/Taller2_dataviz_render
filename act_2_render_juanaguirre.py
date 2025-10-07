@@ -186,6 +186,7 @@ fig4 = dark_layout(fig4)
 # ======================
 
 app = dash.Dash(__name__)
+server = app.server  
 app.title = "Visualización de Matriculas en educacion superior, para estudiantes colombianos desde 2015 a 2023."
 
 # Función para crear las secciones con cajas
